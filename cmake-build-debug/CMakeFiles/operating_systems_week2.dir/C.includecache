@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilshat/operating_systems_week2/main.c
+stdio.h
+-
+float.h
+-
+limits.h
+/home/ilshat/operating_systems_week2/limits.h
+stdlib.h
+-
+memory.h
+-
+
